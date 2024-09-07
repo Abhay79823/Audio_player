@@ -1,0 +1,47 @@
+<!DOCType html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="audio.css">
+        <script src="audio.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="frame">
+                <img src="Images/ad.jpeg" id="ad">
+                <input type="file" accept="audio/*"  id="upload">
+                <marquee>
+                <h2 id="title">Welcome to HTML</h2>
+                </marquee>
+                <p id="size">Size:00.0Mb</p>
+                <div id="progress-info">
+                    <span id="current-duration">00:00</span>
+                    <div id="progress">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <span id="full-duration">00:00</span>
+                </div>
+                     <div id="icons">
+                           <button id="mute-btn">
+                               <i class="ri-volume-up-fill" id="mute-icon" disabled="true" class="toolbar"></i>
+                               <div id="volume-btn"> <input type="range" id="volume"></div>
+                           </button>
+                           <button id="backward-btn">
+                               <i class="ri-arrow-left-s-fill" id="backward-icon" disabled="true" class="toolbar"></i>
+                           </button>
+                           <button id="play-btn">
+                               <i class="ri-play-mini-fill" id="play-icon" disabled="true" class="toolbar"></i>
+                           </button>
+                           <button id="forward-btn">
+                               <i class="ri-arrow-right-s-fill"  id="forward-icon" disabled="true" class="toolbar"></i>
+                           </button>
+                           <button id="loop-btn">
+                            <i class="ri-repeat-2-fill" id="loop-icon" disabled="true" class="toolbar"></i>
+                           </button>
+                    </div>
+                    
+        </div>
+    </body>
+</html>

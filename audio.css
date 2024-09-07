@@ -1,0 +1,117 @@
+#container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#frame{
+    position: relative;
+    width:345px;
+    height:fit-content;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+#ad{
+    width:345px;
+    height:300px;
+    box-shadow: 0 0 10px 0 rgba(130,130,130,0.4);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#upload{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:300px;
+    background:red;
+    opacity: 0%;
+}
+#title{
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+#size{
+    text-align: center;
+    margin-top:4px;
+    margin-bottom: 10px;
+    color:#9b9b9b;
+}
+
+#progress-info{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    margin:10px;
+}
+#progress{
+    width:280px;
+    border-radius: 8px;
+    background: violet;
+    height:10px;
+}
+#progress-bar{
+    background:black;
+    height:10px;
+    width:0%;
+    border-radius:8px;
+}
+#icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#play-btn{
+    width:54px;
+    height:54px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    border-radius: 50%;
+    margin-bottom:25px;
+    background: #ddd;
+    border:none;
+}
+
+#mute-btn,#backward-btn,#forward-btn,#loop-btn{
+    width:35px;
+    height:35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    margin-bottom:25px;
+    background: #ddd;
+    border:none;
+}
+#volume-btn{
+    display:none;
+}
+
+#backward-btn:hover,#forward-btn:hover,#loop-btn:hover,#play-btn:hover{
+    background: #1693CF;
+    transition: 0.5s;
+}
+#mute-btn:hover{
+    
+        position:relative;
+    
+    
+    #volume-btn{
+        position: absolute;
+        display:block;
+        bottom:-34px;
+        left:0px;
+        border:none;
+    }
+    #volume{
+        color: green;
+    
+    }
+    background: #1693CF;
+    transition: 0.5s;
+}
